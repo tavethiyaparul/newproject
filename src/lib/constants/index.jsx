@@ -48,6 +48,39 @@ export const DASHBOARD_SIDEBAR_LINKS = [
 	// }
 ]
 
+export const DASHBOARD_SIDEBAR_LINKS_ADMIN = [
+	{
+		key: 'dashboard',
+		label: 'Dashboard',
+		path: '/admin/dashboard',
+		icon: <HiOutlineViewGrid />
+	},
+	{
+		key: 'manager',
+		label: 'Manager',
+		path: '/admin/manager',
+		icon: <HiOutlineShoppingCart />
+	},
+	{
+		key: 'employee',
+		label: 'Employee',
+		path: '/admin/employee',
+		icon: <HiOutlineUsers />
+	},
+	// {
+	// 	key: 'transactions',
+	// 	label: 'Transactions',
+	// 	path: '/transactions',
+	// 	icon: <HiOutlineDocumentText />
+	// },
+	// {
+	// 	key: 'messages',
+	// 	label: 'Messages',
+	// 	path: '/messages',
+	// 	icon: <HiOutlineAnnotation />
+	// }
+]
+
 export const DASHBOARD_SIDEBAR_BOTTOM_LINKS = [
 	{
 		key: 'settings',

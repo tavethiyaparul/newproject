@@ -7,6 +7,8 @@ import Login from './pages/Login'
 import Company from './pages/superadmin/Company'
 import Maneger from './pages/superadmin/Maneger'
 import Employee from './pages/superadmin/Employee'
+import AdminSidebar from './components/shared/AdminSidebar'
+import LayoutAdmin from './components/shared/LayoutAdmin'
 
 function App() {
     return (
@@ -20,15 +22,16 @@ function App() {
                     <Route path="manager" element={<Maneger />} />
                     <Route path="employee" element={<Employee />} />
                 </Route>
-                <Route path="/admin" element={<Layout />}>
-                    <Route  element={<Dashboard />} />
-                    <Route path="company" element={<Products />} />
-                </Route>
-                <Route path="/employee" element={<Layout />}>
-                    <Route  element={<Dashboard />} />
-                    <Route path="company" element={<Products />} />
+                <Route path="/admin" element={<LayoutAdmin />}>
+                    <Route path="dashboard" element={<Dashboard />} />
+                    <Route path="manager" element={<Maneger />} />
+                    <Route path="employee" element={<Employee />} />
                 </Route>
                 <Route path="/manager" element={<Layout />}>
+                     <Route path="dashboard" element={<Dashboard />} />
+                    <Route path="employee" element={<Employee />} />
+                </Route>
+                <Route path="/employee" element={<Layout />}>
                     <Route  element={<Dashboard />} />
                     <Route path="company" element={<Products />} />
                 </Route>
