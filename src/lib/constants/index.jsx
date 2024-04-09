@@ -13,39 +13,39 @@ export const DASHBOARD_SIDEBAR_LINKS = [
 	{
 		key: 'dashboard',
 		label: 'Dashboard',
-		path: '/',
+		path: '/superadmin/dashboard',
 		icon: <HiOutlineViewGrid />
 	},
 	{
 		key: 'company',
 		label: 'Company',
-		path: '/company',
+		path: '/superadmin/company',
 		icon: <HiOutlineCube />
 	},
 	{
-		key: 'orders',
-		label: 'Orders',
-		path: '/orders',
+		key: 'manager',
+		label: 'Manager',
+		path: '/superadmin/manager',
 		icon: <HiOutlineShoppingCart />
 	},
 	{
-		key: 'customers',
-		label: 'Customers',
-		path: '/customers',
+		key: 'employee',
+		label: 'Employee',
+		path: '/superadmin/employee',
 		icon: <HiOutlineUsers />
 	},
-	{
-		key: 'transactions',
-		label: 'Transactions',
-		path: '/transactions',
-		icon: <HiOutlineDocumentText />
-	},
-	{
-		key: 'messages',
-		label: 'Messages',
-		path: '/messages',
-		icon: <HiOutlineAnnotation />
-	}
+	// {
+	// 	key: 'transactions',
+	// 	label: 'Transactions',
+	// 	path: '/transactions',
+	// 	icon: <HiOutlineDocumentText />
+	// },
+	// {
+	// 	key: 'messages',
+	// 	label: 'Messages',
+	// 	path: '/messages',
+	// 	icon: <HiOutlineAnnotation />
+	// }
 ]
 
 export const DASHBOARD_SIDEBAR_BOTTOM_LINKS = [

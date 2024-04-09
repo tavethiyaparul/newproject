@@ -15,7 +15,7 @@ const Login = () => {
         console.log(bodyData)
 
      if(data.email === "ava" && data.password === "123456"){    
-        navigate("/dashboard")
+        navigate("/superadmin")
      }else if(data.email === "john" && data.password === "123456"){    
         navigate("/admin")
      }else if(data.email === "mark" && data.password === "123456"){    
