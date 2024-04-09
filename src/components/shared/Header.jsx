@@ -14,7 +14,7 @@ export default function Header() {
 				<input
 					type="text"
 					placeholder="Search..."
-					className="text-sm focus:outline-none active:outline-none border border-gray-300 w-[24rem] h-10 pl-11 pr-4 rounded-sm"
+					className="text-sm focus:outline-none active:outline-none border border-gray-300 w-[24rem] h-10 pl-11 pr-4 rounded-full"
 				/>
 			</div>
 			<div className="flex items-center gap-2 mr-2">
