@@ -25,3 +25,25 @@
 		@apply text-sky-500 hover:underline;
 	}
 }
+:root{
+	--primary-2:#f25b1a;
+	--darkBg:#020f27;
+}
+.logoIcon{
+	width: 30px;
+	object-fit: contain;
+}
+.sidebarWrapper{
+    background: var(--darkBg);
+
+}
+.login-circle{
+	--size:100px;
+	position: absolute;
+	width: var(--size);
+	height: var(--size);
+	left: 0;
+	right: 0;
+	top:calc( (var(--size)/ 2) * -1 );
+	margin: auto;
+}
